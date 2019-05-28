@@ -14,12 +14,15 @@
 .heroes li {
   cursor: pointer;
   position: relative;
-  left: 0;
   background-color: #EEE;
   margin: .5em;
   padding: .3em 0;
   height: 1.6em;
   border-radius: 4px;
+}
+
+.heroes li a{
+  margin-left: 3em;
 }
 .heroes li.selected:hover {
   background-color: #BBD8DC !important;
@@ -34,6 +37,7 @@
   position: relative;
   top: -3px;  
 }
+
 .heroes .badge {
   display: inline-block;
   font-size: small;
